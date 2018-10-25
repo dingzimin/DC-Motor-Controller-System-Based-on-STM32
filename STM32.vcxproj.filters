@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{e0595646-7926-4ceb-a14d-6d9fede230b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{1bc7bdaa-a8da-43a8-99c0-a9712db2c023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys">
+      <UniqueIdentifier>{d358c7a6-246b-4fac-b5d7-da2223c1c4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\inc">
+      <UniqueIdentifier>{8f210933-586b-4a24-8882-27f93da25feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\src">
+      <UniqueIdentifier>{2e027e49-b6ec-4165-a54a-293d95256b3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\inc\misc.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_adc.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_bkp.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_can.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_cec.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_crc.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_dac.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_dbgmcu.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_dma.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_exti.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_flash.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_fsmc.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_gpio.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_i2c.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_iwdg.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_pwr.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_rcc.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_rtc.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_sdio.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_spi.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_tim.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_usart.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\inc\stm32f10x_wwdg.h">
+      <Filter>lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\stm32f10x.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\system_stm32f10x.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stm32f10x_conf.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stm32f10x_it.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\led.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\motor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\usart.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\encoder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\controller.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\src\misc.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_adc.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_bkp.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_can.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_cec.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_crc.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_dac.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_dbgmcu.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_dma.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_exti.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_flash.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_fsmc.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_gpio.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_i2c.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_iwdg.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_pwr.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_rcc.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_rtc.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_sdio.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_spi.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_tim.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_usart.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\stm32f10x_wwdg.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\system_stm32f10x.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stm32f10x_it.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\usart.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controller.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

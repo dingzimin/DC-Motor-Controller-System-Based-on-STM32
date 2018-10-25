@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\inc\misc.h" />
+    <ClInclude Include="lib\inc\stm32f10x_adc.h" />
+    <ClInclude Include="lib\inc\stm32f10x_bkp.h" />
+    <ClInclude Include="lib\inc\stm32f10x_can.h" />
+    <ClInclude Include="lib\inc\stm32f10x_cec.h" />
+    <ClInclude Include="lib\inc\stm32f10x_crc.h" />
+    <ClInclude Include="lib\inc\stm32f10x_dac.h" />
+    <ClInclude Include="lib\inc\stm32f10x_dbgmcu.h" />
+    <ClInclude Include="lib\inc\stm32f10x_dma.h" />
+    <ClInclude Include="lib\inc\stm32f10x_exti.h" />
+    <ClInclude Include="lib\inc\stm32f10x_flash.h" />
+    <ClInclude Include="lib\inc\stm32f10x_fsmc.h" />
+    <ClInclude Include="lib\inc\stm32f10x_gpio.h" />
+    <ClInclude Include="lib\inc\stm32f10x_i2c.h" />
+    <ClInclude Include="lib\inc\stm32f10x_iwdg.h" />
+    <ClInclude Include="lib\inc\stm32f10x_pwr.h" />
+    <ClInclude Include="lib\inc\stm32f10x_rcc.h" />
+    <ClInclude Include="lib\inc\stm32f10x_rtc.h" />
+    <ClInclude Include="lib\inc\stm32f10x_sdio.h" />
+    <ClInclude Include="lib\inc\stm32f10x_spi.h" />
+    <ClInclude Include="lib\inc\stm32f10x_tim.h" />
+    <ClInclude Include="lib\inc\stm32f10x_usart.h" />
+    <ClInclude Include="lib\inc\stm32f10x_wwdg.h" />
+    <ClInclude Include="src\controller.h" />
+    <ClInclude Include="src\encoder.h" />
+    <ClInclude Include="src\led.h" />
+    <ClInclude Include="src\motor.h" />
+    <ClInclude Include="src\stm32f10x_conf.h" />
+    <ClInclude Include="src\stm32f10x_it.h" />
+    <ClInclude Include="src\timer.h" />
+    <ClInclude Include="src\usart.h" />
+    <ClInclude Include="sys\stm32f10x.h" />
+    <ClInclude Include="sys\system_stm32f10x.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\src\misc.c" />
+    <ClCompile Include="lib\src\stm32f10x_adc.c" />
+    <ClCompile Include="lib\src\stm32f10x_bkp.c" />
+    <ClCompile Include="lib\src\stm32f10x_can.c" />
+    <ClCompile Include="lib\src\stm32f10x_cec.c" />
+    <ClCompile Include="lib\src\stm32f10x_crc.c" />
+    <ClCompile Include="lib\src\stm32f10x_dac.c" />
+    <ClCompile Include="lib\src\stm32f10x_dbgmcu.c" />
+    <ClCompile Include="lib\src\stm32f10x_dma.c" />
+    <ClCompile Include="lib\src\stm32f10x_exti.c" />
+    <ClCompile Include="lib\src\stm32f10x_flash.c" />
+    <ClCompile Include="lib\src\stm32f10x_fsmc.c" />
+    <ClCompile Include="lib\src\stm32f10x_gpio.c" />
+    <ClCompile Include="lib\src\stm32f10x_i2c.c" />
+    <ClCompile Include="lib\src\stm32f10x_iwdg.c" />
+    <ClCompile Include="lib\src\stm32f10x_pwr.c" />
+    <ClCompile Include="lib\src\stm32f10x_rcc.c" />
+    <ClCompile Include="lib\src\stm32f10x_rtc.c" />
+    <ClCompile Include="lib\src\stm32f10x_sdio.c" />
+    <ClCompile Include="lib\src\stm32f10x_spi.c" />
+    <ClCompile Include="lib\src\stm32f10x_tim.c" />
+    <ClCompile Include="lib\src\stm32f10x_usart.c" />
+    <ClCompile Include="lib\src\stm32f10x_wwdg.c" />
+    <ClCompile Include="src\controller.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\stm32f10x_it.c" />
+    <ClCompile Include="src\timer.cpp" />
+    <ClCompile Include="src\usart.cpp" />
+    <ClCompile Include="sys\system_stm32f10x.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{94DFB9B0-8E2C-4BAA-8E74-AB46FC4D7799}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>STM32</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.1 ARM/arm/CMSIS/Core/Include/;$(ProjectDir)/sys;$(ProjectDir)/lib/inc;$(ProjectDir)/src;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.1 ARM/arm/CMSIS/Core/Include/;$(ProjectDir)/sys;$(ProjectDir)/lib/inc;$(ProjectDir)/src;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.1 ARM/arm/CMSIS/Core/Include/;$(ProjectDir)/sys;$(ProjectDir)/lib/inc;$(ProjectDir)/src;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.1 ARM/arm/CMSIS/Core/Include/;$(ProjectDir)/sys;$(ProjectDir)/lib/inc;$(ProjectDir)/src;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>__ICCARM__;STM32F10X_MD;USE_STDPERIPH_DRIVER;__STATIC_INLINE;__IAR_FT;__intrinsic;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>__ICCARM__;STM32F10X_MD;USE_STDPERIPH_DRIVER;__STATIC_INLINE;__IAR_FT;__intrinsic;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>__ICCARM__;STM32F10X_MD;USE_STDPERIPH_DRIVER;__STATIC_INLINE;__IAR_FT;__intrinsic;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>__ICCARM__;STM32F10X_MD;USE_STDPERIPH_DRIVER;__STATIC_INLINE;__IAR_FT;__intrinsic;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

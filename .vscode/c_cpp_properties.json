@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.1 ARM/arm/CMSIS/Core/Include/**",
+                "C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.1 ARM/arm/inc/c/**",
+                "C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.1 ARM/arm/inc/cpp/**",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__ICCARM__",
+                "STM32F10X_MD",
+                "USE_STDPERIPH_DRIVER",
+                "__STATIC_INLINE",
+                "__IAR_FT",
+                "__intrinsic"
+            ],
+            "windowsSdkVersion": "10.0.17134.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.15.26726/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
